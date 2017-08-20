@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+set (CMAKE_CXX_STANDARD 11)
+project( bautista_villanueva_ex2 )
+find_package( OpenCV REQUIRED )
+add_executable( bautista_villanueva_ex2 bautista_villanueva_ex2.cpp )
+target_link_libraries( bautista_villanueva_ex2 ${OpenCV_LIBS} )
